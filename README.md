@@ -1,8 +1,13 @@
 Ox_lib integration tutorial
+
 To integrate QBCore progressbar into ox_lib
+
 First go into ox_lib/resource/interface/client/progress.lua
+
 Then find function lib.progressBar(data)
+
 And then replace that whole function code with mine here
+##############################################
 function lib.progressBar(data)
     while progress ~= nil do Wait(0) end
 ##############################################
